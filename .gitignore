@@ -1,0 +1,30 @@
+
+# Arduino output
+*.bin
+*.elf
+*.map
+*.hex
+*.o
+*.obj
+*.d
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# File rahasia
+secrets.h
+.env
+.env.*
+!.env.example
+
+# Editor dan sistem
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Output analisis sementara
+analysis/output/
